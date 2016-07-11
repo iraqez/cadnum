@@ -21,7 +21,7 @@
  ***************************************************************************/
 """
 from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
-from PyQt4.QtGui import QAction, QIcon, QPushButton, QLineEdit, QWidget
+from PyQt4.QtGui import QAction, QIcon
 from PyQt4 import QtGui
 
 import sys
@@ -62,7 +62,10 @@ class cadnum:
                 QCoreApplication.installTranslator(self.translator)
 
         # Create the dialog (after translation) and keep reference
+                # Create the dialog (after translation) and keep reference
+
         self.dlg = cadnumDialog()
+
 
 
 
@@ -72,6 +75,8 @@ class cadnum:
         # TODO: We are going to let the user set this up in a future iteration
         self.toolbar = self.iface.addToolBar(u'cadnum')
         self.toolbar.setObjectName(u'cadnum')
+
+        self.dlg.getCadnum.clicked.connect(self.clBut)
 
 
 
@@ -187,9 +192,10 @@ class cadnum:
         # remove the toolbar
         del self.toolbar
 
-    def printCadnum(self):
-        cn = str(self.cadnumLine.ToPlainText())
-        self.TextEdit(cn)
+    def clBut(self):
+        cn = (self.dlg.cadnumLine.text())
+        self.dlg.textEdit.setText(cn)
+
 
     def run(self):
         """Run method that performs all the real work"""
@@ -203,8 +209,8 @@ class cadnum:
             # substitute with your code.
             pass
 
-if __name__ == "__main__":
-    app = QtGui.QApplication(sys.argv)
-    window = cadnumDialog()
-    window.show()
-    sys.exit(app.exec_())
+# if __name__ == "__main__":
+#     app = QtGui.QApplication(sys.argv)
+#     window = cadnumDialog()
+#     window.show()
+#     sys.exit(app.exec_())

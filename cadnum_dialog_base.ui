@@ -16,22 +16,6 @@
   <property name="windowTitle">
    <string>Кадастрові ділянки</string>
   </property>
-  <widget class="QLineEdit" name="cadnumLine">
-   <property name="geometry">
-    <rect>
-     <x>22</x>
-     <y>60</y>
-     <width>181</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="contextMenuPolicy">
-    <enum>Qt::DefaultContextMenu</enum>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
   <widget class="QPushButton" name="getCadnum">
    <property name="geometry">
     <rect>
@@ -46,6 +30,9 @@
    </property>
    <property name="text">
     <string>Пошук ділянки</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QTextEdit" name="textEdit">
@@ -79,7 +66,63 @@
     <string>Пошук кадастрових ділянок</string>
    </property>
   </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>260</y>
+     <width>169</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cadnumLine">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>cadnumDialogBase</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>204</x>
+     <y>272</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>210</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>getCadnum</sender>
+   <signal>clicked()</signal>
+   <receiver>getCadnum</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>260</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>260</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
