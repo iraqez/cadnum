@@ -14,33 +14,14 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>cadnum</string>
+   <string>Кадастрові ділянки</string>
   </property>
-  <widget class="QDialogButtonBox" name="button_box">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>280</y>
-     <width>381</width>
-     <height>32</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Horizontal</enum>
-   </property>
-   <property name="standardButtons">
-    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-   </property>
-   <property name="centerButtons">
-    <bool>true</bool>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="cadnumLine">
    <property name="geometry">
     <rect>
      <x>22</x>
-     <y>20</y>
-     <width>211</width>
+     <y>60</y>
+     <width>181</width>
      <height>22</height>
     </rect>
    </property>
@@ -54,9 +35,9 @@
   <widget class="QPushButton" name="getCadnum">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>20</y>
-     <width>111</width>
+     <x>210</x>
+     <y>60</y>
+     <width>101</width>
      <height>23</height>
     </rect>
    </property>
@@ -67,56 +48,38 @@
     <string>Пошук ділянки</string>
    </property>
   </widget>
-  <widget class="QFrame" name="frame">
+  <widget class="QTextEdit" name="textEdit">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>70</y>
-     <width>361</width>
-     <height>171</height>
+     <x>10</x>
+     <y>100</y>
+     <width>401</width>
+     <height>121</height>
     </rect>
    </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>321</width>
+     <height>21</height>
+    </rect>
    </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Пошук кадастрових ділянок</string>
    </property>
   </widget>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>button_box</sender>
-   <signal>accepted()</signal>
-   <receiver>cadnumDialogBase</receiver>
-   <slot>accept()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>20</x>
-     <y>20</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>20</x>
-     <y>20</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>button_box</sender>
-   <signal>rejected()</signal>
-   <receiver>cadnumDialogBase</receiver>
-   <slot>reject()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>20</x>
-     <y>20</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>20</x>
-     <y>20</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

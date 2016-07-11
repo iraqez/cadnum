@@ -21,7 +21,10 @@
  ***************************************************************************/
 """
 from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
-from PyQt4.QtGui import QAction, QIcon
+from PyQt4.QtGui import QAction, QIcon, QPushButton, QLineEdit, QWidget
+from PyQt4 import QtGui
+
+import sys
 # Initialize Qt resources from file resources.py
 import resources
 # Import the code for the dialog
@@ -69,6 +72,9 @@ class cadnum:
         # TODO: We are going to let the user set this up in a future iteration
         self.toolbar = self.iface.addToolBar(u'cadnum')
         self.toolbar.setObjectName(u'cadnum')
+
+
+
 
 
     # noinspection PyMethodMayBeStatic
@@ -181,6 +187,9 @@ class cadnum:
         # remove the toolbar
         del self.toolbar
 
+    def printCadnum(self):
+        cn = str(self.cadnumLine.ToPlainText())
+        self.TextEdit(cn)
 
     def run(self):
         """Run method that performs all the real work"""
@@ -193,3 +202,9 @@ class cadnum:
             # Do something useful here - delete the line containing pass and
             # substitute with your code.
             pass
+
+if __name__ == "__main__":
+    app = QtGui.QApplication(sys.argv)
+    window = cadnumDialog()
+    window.show()
+    sys.exit(app.exec_())
