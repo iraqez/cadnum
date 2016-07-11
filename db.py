@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 
 import psycopg2
-import postgis
+import ppygis
+import StringIO
 
 
 import datacadnum
 
 def dbinsert(cadnum):
     resp = datacadnum.cnum(cadnum)
-    conn = psycopg2.connect("host=agro2012.com.ua dbname=agro2012 user=postgres password=workfree")
+    conn = psycopg2.connect("host=gis.agro2012.com.ua dbname=agro2012 user=postgres password=workfree")
     cur = conn.cursor()
 
     s1 = cadnum
@@ -20,16 +21,20 @@ def dbinsert(cadnum):
         lng = str(resp.get('long'))
         cadnum = resp.get('cadnum')
         area = resp.get('area')
-        geom = postgis.Point(x=lng, y=lat, srid=4326)
+        geom = ppygis.Point(float(lng), float(lat), srid=4326)
 
-        cur.execute('INSERT INTO cadnum(lat, lng, cadnum, area) VALUES (%s, %s, %s, %s)',(lat, lng, cadnum, area))
+        cur.execute('INSERT INTO cadnum(geom, lat, lng, cadnum, area) VALUES (%s, %s, %s, %s, %s)',(geom, lat, lng, cadnum, area))
         conn.commit()
-        return ('Number {} like add!!!'.format(s1) )
+        logstr = (u'Номер {} успешно добавлен!!!'.format(s1))
     else:
-        return ('Number {} is present!!!'.format(s1) )
+        logstr = (u'Номер {} существует в базе!!!'.format(s1))
+    #     return (u'Number {} like add!!!'.format(s1) )
+    # else:
+    #     return (u'Number {} is present!!!'.format(s1) )
 
     cur.close()
     conn.close()
+    print logstr
 
 if __name__ == '__main__':
     cadnum = raw_input('Вставьте кадастровый номер: ')
