@@ -1,4 +1,5 @@
-#import datacadnum
+# -*- coding: utf-8 -*-
+
 import math
 
 def addCoordinates(resp):
