@@ -20,11 +20,13 @@
  *                                                                         *
  ***************************************************************************/
 """
+import sys
+sys.path.append(u'c:\\Python27\\Lib\\site-packages\\')
+
 from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
 from PyQt4.QtGui import QAction, QIcon
 import db
 
-import sys
 # Initialize Qt resources from file resources.py
 import resources
 # Import the code for the dialog
@@ -193,8 +195,10 @@ class cadnum:
         del self.toolbar
 
     def clBut(self):
+
         cn = (self.dlg.cadnumLine.text())
-        self.dlg.textEdit.setText(cn)
+        #cng = db.dbinsert(cn)
+        self.dlg.textEdit.setText(db.dbinsert(cn))
 
 
     def run(self):

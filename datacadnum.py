@@ -2,12 +2,14 @@
 
 import json, requests
 import coordinates
+import re
+
 url_point = 'http://212.26.144.110/kadastrova-karta/find-Parcel'
 url_data = 'http://212.26.144.110/kadastrova-karta/get-parcel-Info'
 
-#cadnum='0524587000:01:003:0358'
+cadnum='0524587000:01:003:0358 '
 def cnum(cadnum):
-
+    re.sub(r'\s', '', cadnum)
     params_point = dict(
         cadnum=cadnum,
     )
@@ -21,7 +23,10 @@ def cnum(cadnum):
     )
     resp.update((json.loads(requests.get(url=url_data, params=params_data).text)['data'])[0])
     coordinates.addCoordinates(resp)
-    return resp
+    try:
+        return resp
+    except:
+        return ("Нет данных по {}".format(cadnum))
 
 
 
