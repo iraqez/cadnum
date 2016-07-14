@@ -26,9 +26,8 @@ def cnum(cadnum):
     try:
         return resp
     except:
-        return ("Нет данных по {}".format(cadnum))
-
-
+        notCN = ("Нет данных по {}".format(cadnum))
+        return notCN
 
 if __name__ == '__main__':
     cadnum = raw_input('Вставьте кадастровый номер: ')

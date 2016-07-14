@@ -4,6 +4,7 @@ import psycopg2
 import ppygis
 import StringIO
 
+import nums
 import datacadnum
 
 def dbinsert(cadnum):
@@ -27,14 +28,13 @@ def dbinsert(cadnum):
         logstr = (u'Номер {} успішно додано в базу!!!'.format(s1))
     else:
         logstr = (u'Номер {} вже існує!!!'.format(s1))
-    #     return (u'Number {} like add!!!'.format(s1) )
-    # else:
-    #     return (u'Number {} is present!!!'.format(s1) )
+
 
     cur.close()
     conn.close()
     return logstr
 
 if __name__ == '__main__':
-    cadnum = raw_input('Вставьте кадастровый номер: ')
-    dbinsert(cadnum)
+#    cadnum = raw_input('Вставьте кадастровый номер: ')
+    for i in nums.cadnums:
+        dbinsert(i)
