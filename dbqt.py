@@ -14,9 +14,10 @@ def dbinsert(cadnum):
     db.setUserName("postgres")
     db.setPassword("workfree")
 
-
-
+    s1 = cadnum
     query = QSqlQuery(db)
+
+    cnInBase = ""
     query.exec_("""
 
     """)
