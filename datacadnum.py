@@ -1,8 +1,21 @@
 # -*- coding: utf-8 -*-
 
 import json, requests
-import coordinates
 import re
+import math
+
+def addCoordinates(resp):
+#    resp = datacadnum.resp
+    ymin = float(resp['st_ymin'])
+    xmin = float(resp['st_xmin'])
+    ymax = float(resp['st_ymax'])
+    xmax = float(resp['st_xmax'])
+
+    lng = (xmin+(xmax-xmin)/2-0.0017)/(math.pi/180) / 6378137
+    lat = (2*math.atan(math.exp((ymin+(ymax-ymin)/2-0.0002)/6378137))-math.pi/2)/(math.pi/180)
+    coordinates = {'lat': lat, 'lng': lng}
+    resp.update(coordinates)
+    return resp
 
 url_point = 'http://212.26.144.110/kadastrova-karta/find-Parcel'
 url_data = 'http://212.26.144.110/kadastrova-karta/get-parcel-Info'
@@ -22,7 +35,7 @@ def cnum(cadnum):
         parcel=cadnum.split(':')[3],
     )
     resp.update((json.loads(requests.get(url=url_data, params=params_data).text)['data'])[0])
-    coordinates.addCoordinates(resp)
+    addCoordinates(resp)
     try:
         return resp
     except:
