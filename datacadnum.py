@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import json, requests
-import re
-import math
+import json, requests, re, math
 
 def addCoordinates(resp):
 #    resp = datacadnum.resp
