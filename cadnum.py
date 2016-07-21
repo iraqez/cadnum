@@ -25,7 +25,7 @@ sys.path.append(u'c:\\Python27\\Lib\\site-packages\\')
 
 from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
 from PyQt4.QtGui import QAction, QIcon
-import db
+import dbqt as db
 
 # Initialize Qt resources from file resources.py
 import resources

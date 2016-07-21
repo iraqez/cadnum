@@ -2,7 +2,7 @@
 
 import psycopg2
 import ppygis
-import StringIO
+#import StringIO
 
 import nums
 import datacadnum
@@ -13,17 +13,17 @@ def dbinsert(cadnum):
     cur = conn.cursor()
 
     s1 = cadnum
-    cur.execute('SELECT count(*) FROM cadnum where cadnum = %s', (s1,))
+    cur.execute('SELECT count(*) FROM cadnum_point where cadnum = %s', (s1,))
     s = cur.fetchone()
 
     if s[0] == False:
         lat = str(resp.get('lat'))
         lng = str(resp.get('long'))
         cadnum = resp.get('cadnum')
-        area = resp.get('area')
+  #      area = resp.get('area')
         geom = ppygis.Point(float(lng), float(lat), srid=4326)
 
-        cur.execute('INSERT INTO cadnum(geom, lat, lng, cadnum, area) VALUES (%s, %s, %s, %s, %s)',(geom, lat, lng, cadnum, area))
+        cur.execute('INSERT INTO cadnum_point(geom, cadnum) VALUES (%s, %s)',(geom, cadnum))
         conn.commit()
         logstr = (u'Номер {} успішно додано в базу!!!'.format(s1))
     else:
@@ -32,9 +32,15 @@ def dbinsert(cadnum):
 
     cur.close()
     conn.close()
+    print logstr
     return logstr
 
 if __name__ == '__main__':
 #    cadnum = raw_input('Вставьте кадастровый номер: ')
-    for i in nums.cadnums:
-        dbinsert(i)
+#    dbinsert(cadnum)
+    for n in nums.cadnums:
+        try:
+            dbinsert(n)
+        except:
+            pass
+
