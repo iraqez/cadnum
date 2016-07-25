@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>351</width>
-    <height>334</height>
+    <width>454</width>
+    <height>504</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,41 +19,12 @@
   <property name="modal">
    <bool>false</bool>
   </property>
-  <widget class="QPushButton" name="getCadnum">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>39</y>
-     <width>83</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="layoutDirection">
-    <enum>Qt::LeftToRight</enum>
-   </property>
-   <property name="text">
-    <string>Пошук ділянки</string>
-   </property>
-   <property name="autoDefault">
-    <bool>false</bool>
-   </property>
-  </widget>
-  <widget class="QTextEdit" name="textEdit">
-   <property name="geometry">
-    <rect>
-     <x>11</x>
-     <y>280</y>
-     <width>331</width>
-     <height>41</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>11</y>
-     <width>291</width>
+     <x>60</x>
+     <y>10</y>
+     <width>321</width>
      <height>23</height>
     </rect>
    </property>
@@ -69,46 +40,103 @@
     <enum>Qt::LeftToRight</enum>
    </property>
    <property name="text">
-    <string>Пошук кадастрових ділянок</string>
+    <string>Робота з кадастром України</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="cadnumLine">
+  <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
     <rect>
-     <x>11</x>
-     <y>40</y>
-     <width>133</width>
-     <height>21</height>
+     <x>20</x>
+     <y>50</y>
+     <width>411</width>
+     <height>441</height>
     </rect>
    </property>
-   <property name="maximumSize">
-    <size>
-     <width>151</width>
-     <height>22</height>
-    </size>
+   <property name="currentIndex">
+    <number>0</number>
    </property>
-   <property name="maxLength">
-    <number>22</number>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="getCadnum_2">
-   <property name="geometry">
-    <rect>
-     <x>239</x>
-     <y>39</y>
-     <width>99</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="layoutDirection">
-    <enum>Qt::LeftToRight</enum>
-   </property>
-   <property name="text">
-    <string>Видалити ділянку</string>
-   </property>
-   <property name="autoDefault">
-    <bool>false</bool>
-   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Пошук ділянки</string>
+    </attribute>
+    <widget class="QPushButton" name="getCadnum">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>10</y>
+       <width>111</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>Пошук ділянки</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="getCadnum_2">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>10</y>
+       <width>121</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>Видалити ділянку</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="cadnumLine">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>11</y>
+       <width>133</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>151</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maxLength">
+      <number>22</number>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>371</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>таб 2</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Страница</string>
+    </attribute>
+   </widget>
   </widget>
  </widget>
  <resources/>

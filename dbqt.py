@@ -1,9 +1,11 @@
+# -*- coding: utf-8 -*-
+
 from PyQt4.QtSql import *
 
 import datacadnum
 
-def dbinsert(cadnum):
-    resp = datacadnum.cnum(cadnum)
+def dbinsert():#cadnum):
+    #resp = datacadnum.cnum(cadnum)
 
 
     db = QSqlDatabase.addDatabase("QPSQL")
@@ -13,11 +15,27 @@ def dbinsert(cadnum):
     db.setDatabaseName("agro2012")
     db.setUserName("postgres")
     db.setPassword("workfree")
+    db.open()
 
-    s1 = cadnum
+#    s1 = cadnum
     query = QSqlQuery(db)
 
-    cnInBase = ""
+ #   cnInBase = 'SELECT count(*) FROM cadnum_point where cadnum = %s', (s1,)
     query.exec_("""
-
+      SELECT cadnum, area, st_ymax, purpose, parcel, lat, zona, st_ymin, ownershipvalue,
+       ownershipcode, st_xmin, st_xmax, lng, koatuu, id_office, use,
+       kvartal, unit_area
+      FROM cadnum;
     """)
+    while query.next():
+        print unicode(query.value(3).toString())
+
+if __name__ == '__main__':
+    dbinsert()
+  #  cadnum = raw_input('Вставьте кадастровый номер: ')
+    #dbinsert(cadnum)
+        # for n in nums.cadnums:
+        #     try:
+        #         dbinsert(n)
+        #     except:
+        #         pass
