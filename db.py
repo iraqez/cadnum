@@ -36,11 +36,11 @@ def dbinsert(cadnum):
     return logstr
 
 if __name__ == '__main__':
-#    cadnum = raw_input('Вставьте кадастровый номер: ')
-#    dbinsert(cadnum)
-    for n in nums.cadnums:
-        try:
-            dbinsert(n)
-        except:
-            pass
+   cadnum = raw_input('Вставьте кадастровый номер: ')
+   dbinsert(cadnum)
+#     for n in nums.cadnums:
+#         try:
+#             dbinsert(n)
+#         except:
+#             pass
 

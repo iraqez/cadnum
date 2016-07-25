@@ -4,8 +4,8 @@ from PyQt4.QtSql import *
 
 import datacadnum
 
-def dbinsert():#cadnum):
-    #resp = datacadnum.cnum(cadnum)
+def dbinsert(cadnum):
+  #  resp = datacadnum.cnum(cadnum)
 
 
     db = QSqlDatabase.addDatabase("QPSQL")
@@ -17,25 +17,33 @@ def dbinsert():#cadnum):
     db.setPassword("workfree")
     db.open()
 
-#    s1 = cadnum
+    s1 = cadnum
     query = QSqlQuery(db)
 
- #   cnInBase = 'SELECT count(*) FROM cadnum_point where cadnum = %s', (s1,)
+  #  cnInBase = 'SELECT count(*) FROM cadnum_point where cadnum = %s', (s1,)
     query.exec_("""
-      SELECT cadnum, area, st_ymax, purpose, parcel, lat, zona, st_ymin, ownershipvalue,
-       ownershipcode, st_xmin, st_xmax, lng, koatuu, id_office, use,
-       kvartal, unit_area
-      FROM cadnum;
-    """)
+    SELECT count(*) FROM cadnum_point where cadnum = '%s'
+    """ % (s1))
+      # SELECT cadnum, area, st_ymax, purpose, parcel, lat, zona, st_ymin, ownershipvalue,
+      #  ownershipcode, st_xmin, st_xmax, lng, koatuu, id_office, use,
+      #  kvartal, unit_area
+      # FROM cadnum;
+
     while query.next():
-        print unicode(query.value(3).toString())
+        if unicode(query.value(0).toString()) == 0:
+            lat = str(resp.get('lat'))
+            lng = str(resp.get('long'))
+            cadnum = resp.get('cadnum')
+
+        else:
+            logstr = (u'Номер {} вже існує!!!'.format(s1))
 
 if __name__ == '__main__':
-    dbinsert()
-  #  cadnum = raw_input('Вставьте кадастровый номер: ')
     #dbinsert(cadnum)
-        # for n in nums.cadnums:
-        #     try:
-        #         dbinsert(n)
-        #     except:
-        #         pass
+    cadnum = raw_input('Вставьте кадастровый номер: ')
+    dbinsert(cadnum)
+    # for n in nums.cadnums:
+    #         try:
+    #             dbinsert(n)
+    #         except:
+    #             pass
