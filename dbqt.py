@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from PyQt4.QtSql import *
+#from qgis import QgsGeometry, QgsFeature
 
 import datacadnum
 
@@ -23,7 +24,7 @@ def dbinsert(cadnum):
   #  cnInBase = 'SELECT count(*) FROM cadnum_point where cadnum = %s', (s1,)
     query.exec_("""
     SELECT count(*) FROM cadnum_point where cadnum = '%s'
-    """ % (s1))
+    """ % (cadnum))
       # SELECT cadnum, area, st_ymax, purpose, parcel, lat, zona, st_ymin, ownershipvalue,
       #  ownershipcode, st_xmin, st_xmax, lng, koatuu, id_office, use,
       #  kvartal, unit_area
@@ -31,12 +32,17 @@ def dbinsert(cadnum):
 
     while query.next():
         if unicode(query.value(0).toString()) == 0:
-            lat = str(resp.get('lat'))
-            lng = str(resp.get('long'))
-            cadnum = resp.get('cadnum')
+            resp = datacadnum.cnum(cadnum)
+            print resp
+
+            # lat = str(resp.get('lat'))
+            # lng = str(resp.get('long'))
+            # cadnum = resp.get('cadnum')
 
         else:
             logstr = (u'Номер {} вже існує!!!'.format(s1))
+
+    print logstr
 
 if __name__ == '__main__':
     #dbinsert(cadnum)
