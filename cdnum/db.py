@@ -4,7 +4,7 @@ import psycopg2
 
 import ppygis
 
-from cdnum import datacadnum
+import datacadnum
 
 
 def dbinsert(cadnum):
@@ -53,6 +53,7 @@ def dbinsert(cadnum):
               %s, %s)""", (cadnum, area, st_ymax, purpose, parcel, lat, zona, st_ymin,
               ownershipvalue, ownershipcode, st_xmin, st_xmax, lng, koatuu, id_office, use,
               kvartal, unit_area))
+        cur.execute('INSERT INTO cadnum_point(geom, cadnum) VALUES (%s, %s)', (geom, cadnum))
         conn.commit()
         logstr = (u'Номер {} успішно додано в базу!!!'.format(s1))
     else:
@@ -61,7 +62,7 @@ def dbinsert(cadnum):
 
     cur.close()
     conn.close()
-    print logstr
+  #  print logstr
     return logstr
 
 if __name__ == '__main__':
