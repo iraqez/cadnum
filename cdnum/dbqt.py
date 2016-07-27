@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from PyQt4.QtSql import *
-#from qgis import QgsGeometry, QgsFeature
 
-import datacadnum
+from cdnum import datacadnum
+
 
 def dbinsert(cadnum):
   #  resp = datacadnum.cnum(cadnum)

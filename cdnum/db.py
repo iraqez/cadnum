@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
 import psycopg2
-import ppygis
-#import StringIO
 
-import nums
-import datacadnum
+import ppygis
+
+from cdnum import datacadnum
+
 
 def dbinsert(cadnum):
     resp = datacadnum.cnum(cadnum)
