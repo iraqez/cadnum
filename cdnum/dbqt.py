@@ -2,7 +2,7 @@
 
 from PyQt4.QtSql import *
 
-from cdnum import datacadnum
+import datacadnum
 
 
 def dbinsert(cadnum):
