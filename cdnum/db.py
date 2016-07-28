@@ -62,11 +62,11 @@ def dbinsert(cadnum):
 
     cur.close()
     conn.close()
-    print logstr
+ #   print logstr
     return logstr
 
 if __name__ == '__main__':
-   cadnum = raw_input('Вставьте кадастровый номер: ')
+   cadnum = raw_input(u'Вставьте кадастровый номер: ')
    dbinsert(cadnum)
 #     for n in nums.cadnums:
 #         try:
