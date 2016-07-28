@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bddf550-013e-4cfb-a553-e9cd66d1c949" name="Default" comment="1">
+    <list default="true" id="8bddf550-013e-4cfb-a553-e9cd66d1c949" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cadnum.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cdnum/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cdnum/browser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cdnum/datacadnum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cdnum/db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cdnum/dbqt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cdnum/nums.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cdnum/pyqgisapitest.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AgroGis/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/browser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/datacadnum.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbqt.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapsCoordinates.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nums.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cadnum_dialog_base.ui" afterPath="$PROJECT_DIR$/cadnum_dialog_base.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cadnum.py" afterPath="$PROJECT_DIR$/cadnum.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cdnum/dbqt.py" afterPath="$PROJECT_DIR$/cdnum/dbqt.py" />
     </list>
     <list id="5a36b811-12ec-4fbd-a038-9156032b2bf2" name="New changelist" comment="" />
     <ignored path="cadnum.iws" />
@@ -141,6 +128,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cadnum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cadnum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cadnum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cdnum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469538838296</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1">
+      <created>1469709265495</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1469709265495</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
