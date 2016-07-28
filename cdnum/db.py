@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import psycopg2
-
 import ppygis
-
 import datacadnum
-
 
 def dbinsert(cadnum):
 
@@ -55,7 +52,7 @@ def dbinsert(cadnum):
               kvartal, unit_area))
         cur.execute('INSERT INTO cadnum_point(geom, cadnum) VALUES (%s, %s)', (geom, cadnum))
         conn.commit()
-        logstr = (u'Номер {} успішно додано в базу!!!'.format(s1))
+        logstr = (u'Номер {} успішно додано!!!'.format(s1))
     else:
         logstr = (u'Номер {} вже існує!!!'.format(s1))
 
