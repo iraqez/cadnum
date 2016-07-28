@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="377515742">
+  <component name="DataSourceManagerImpl" format="xml" hash="604033384">
     <data-source source="LOCAL" name="PostgreSQL - agro2012@gis.agro2012.com.ua" uuid="58602245-ae18-4ada-8358-cdc6093d7c35">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
