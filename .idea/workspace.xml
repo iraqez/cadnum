@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8bddf550-013e-4cfb-a553-e9cd66d1c949" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cdnum/db.py" afterPath="$PROJECT_DIR$/cdnum/db.py" />
     </list>
     <list id="5a36b811-12ec-4fbd-a038-9156032b2bf2" name="New changelist" comment="" />
     <ignored path="cadnum.iws" />
@@ -43,12 +42,12 @@
       <file leaf-file-name="db.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cdnum/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
               <folding>
-                <marker date="1469709532484" expanded="true" signature="262:307" ph="SELECT count... cadnum" />
-                <marker date="1469709532484" expanded="true" signature="1539:1863" ph="INSERT INTO cadnum... " />
-                <marker date="1469709532484" expanded="true" signature="2077:2131" ph="INSERT INTO cadnum_point... " />
+                <marker date="1469709945692" expanded="true" signature="262:307" ph="SELECT count... cadnum" />
+                <marker date="1469709945692" expanded="true" signature="1539:1863" ph="INSERT INTO cadnum... " />
+                <marker date="1469709945692" expanded="true" signature="2077:2131" ph="INSERT INTO cadnum_point... " />
               </folding>
             </state>
           </provider>
@@ -543,14 +542,28 @@
       <option name="project" value="LOCAL" />
       <updated>1469709413869</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2">
+      <created>1469709781369</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1469709781369</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2">
+      <created>1469709994899</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1469709994899</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3260212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3260212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5030534" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2549168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -779,12 +792,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cdnum/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
           <folding>
-            <marker date="1469709532484" expanded="true" signature="262:307" ph="SELECT count... cadnum" />
-            <marker date="1469709532484" expanded="true" signature="1539:1863" ph="INSERT INTO cadnum... " />
-            <marker date="1469709532484" expanded="true" signature="2077:2131" ph="INSERT INTO cadnum_point... " />
+            <marker date="1469709945692" expanded="true" signature="262:307" ph="SELECT count... cadnum" />
+            <marker date="1469709945692" expanded="true" signature="1539:1863" ph="INSERT INTO cadnum... " />
+            <marker date="1469709945692" expanded="true" signature="2077:2131" ph="INSERT INTO cadnum_point... " />
           </folding>
         </state>
       </provider>
