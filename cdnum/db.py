@@ -62,7 +62,7 @@ def dbinsert(cadnum):
 
     cur.close()
     conn.close()
-  #  print logstr
+    print logstr
     return logstr
 
 if __name__ == '__main__':
