@@ -24,7 +24,7 @@ import sys
 sys.path.append(u'c:\\Python27\\Lib\\site-packages\\')
 
 from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
-from PyQt4.QtGui import QAction, QIcon
+from PyQt4.QtGui import QAction, QIcon, QFileDialog
 from cdnum import db
 
 # Initialize Qt resources from file resources.py
@@ -78,7 +78,6 @@ class cadnum:
         self.toolbar.setObjectName(u'cadnum')
 
         self.dlg.getCadnum.clicked.connect(self.clBut)
-
 
 
 
@@ -175,7 +174,8 @@ class cadnum:
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
-        icon_path = ':/plugins/cadnum/icon.png'
+      #  icon_path = ':/plugins/cadnum/icon.png'
+        icon_path = 'icon.png'
         self.add_action(
             icon_path,
             text=self.tr(u'cadnum'),
@@ -192,6 +192,10 @@ class cadnum:
             self.iface.removeToolBarIcon(action)
         # remove the toolbar
         del self.toolbar
+
+    def openFile(self):
+        filename = QFileDialog.getOpenFileName(self, 'Open File', os.getenv('HOME'), "")
+        self.label.setText(_translate("MainWindow", filename, None))
 
     def clBut(self):
 
@@ -211,6 +215,8 @@ class cadnum:
             # Do something useful here - delete the line containing pass and
             # substitute with your code.
             pass
+
+
 
 # if __name__ == "__main__":
 #     app = QtGui.QApplication(sys.argv)
