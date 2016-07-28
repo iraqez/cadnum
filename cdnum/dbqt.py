@@ -5,6 +5,7 @@ from PyQt4.QtSql import *
 from cdnum import datacadnum
 
 
+
 def dbinsert(cadnum):
   #  resp = datacadnum.cnum(cadnum)
 
