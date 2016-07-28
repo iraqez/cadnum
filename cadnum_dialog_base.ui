@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>454</width>
-    <height>504</height>
+    <width>422</width>
+    <height>499</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -46,8 +46,8 @@
   <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>50</y>
+     <x>5</x>
+     <y>54</y>
      <width>411</width>
      <height>441</height>
     </rect>
@@ -62,7 +62,7 @@
     <widget class="QPushButton" name="getCadnum">
      <property name="geometry">
       <rect>
-       <x>150</x>
+       <x>272</x>
        <y>10</y>
        <width>111</width>
        <height>23</height>
@@ -78,29 +78,10 @@
       <bool>false</bool>
      </property>
     </widget>
-    <widget class="QPushButton" name="getCadnum_2">
-     <property name="geometry">
-      <rect>
-       <x>260</x>
-       <y>10</y>
-       <width>121</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="layoutDirection">
-      <enum>Qt::LeftToRight</enum>
-     </property>
-     <property name="text">
-      <string>Видалити ділянку</string>
-     </property>
-     <property name="autoDefault">
-      <bool>false</bool>
-     </property>
-    </widget>
     <widget class="QLineEdit" name="cadnumLine">
      <property name="geometry">
       <rect>
-       <x>11</x>
+       <x>125</x>
        <y>11</y>
        <width>133</width>
        <height>21</height>
@@ -120,21 +101,39 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>60</y>
+       <y>370</y>
        <width>371</width>
        <height>41</height>
       </rect>
      </property>
     </widget>
-   </widget>
-   <widget class="QWidget" name="tab_2">
-    <attribute name="title">
-     <string>таб 2</string>
-    </attribute>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>14</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Введіть номер:</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QWidget" name="tab_3">
     <attribute name="title">
-     <string>Страница</string>
+     <string>Орендарі</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Власники ділянок</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Договора</string>
     </attribute>
    </widget>
   </widget>
