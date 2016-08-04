@@ -11,7 +11,7 @@ app = QApplication(sys.argv)
 
 
 web = QWebView()
-web.resize(980, 700)
+web.resize(980, 600)
 title = unicode(u"Кадастрова карта")
 web.setWindowTitle(title)
 web.load(QUrl("http://map.land.gov.ua/kadastrova-karta/"))

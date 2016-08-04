@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bddf550-013e-4cfb-a553-e9cd66d1c949" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hnya/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cdnum/browser.py" afterPath="$PROJECT_DIR$/hnya/browser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hnya/drevnosti.geojson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hnya/geo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cadnum_dialog_base.ui" afterPath="$PROJECT_DIR$/cadnum_dialog_base.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cadnum.iml" afterPath="$PROJECT_DIR$/.idea/cadnum.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hnya/browser.py" afterPath="$PROJECT_DIR$/hnya/browser.py" />
     </list>
     <list id="5a36b811-12ec-4fbd-a038-9156032b2bf2" name="New changelist" comment="" />
     <ignored path="cadnum.iws" />
@@ -18,13 +24,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/cadnum$db.coverage" NAME="db Coverage Results" MODIFIED="1469724625275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cadnum$cadnum.coverage" NAME="cadnum Coverage Results" MODIFIED="1468936603081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cadnum$selectFiles.coverage" NAME="selectFiles Coverage Results" MODIFIED="1469746300279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hnya" />
-    <SUITE FILE_PATH="coverage/cadnum$dbqt.coverage" NAME="dbqt Coverage Results" MODIFIED="1469522097035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cadnum$db__1_.coverage" NAME="db (1) Coverage Results" MODIFIED="1469724636831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdnum" />
+    <SUITE FILE_PATH="coverage/cadnum$db.coverage" NAME="db Coverage Results" MODIFIED="1469711379424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cadnum$datacadnum.coverage" NAME="datacadnum Coverage Results" MODIFIED="1468936620918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cadnum$browser.coverage" NAME="browser Coverage Results" MODIFIED="1469747468429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hnya" />
+    <SUITE FILE_PATH="coverage/cadnum$db__1_.coverage" NAME="db (1) Coverage Results" MODIFIED="1469782165328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdnum" />
+    <SUITE FILE_PATH="coverage/cadnum$browser.coverage" NAME="browser Coverage Results" MODIFIED="1469782357301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hnya" />
+    <SUITE FILE_PATH="coverage/cadnum$dbqt.coverage" NAME="dbqt Coverage Results" MODIFIED="1469522097035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,6 +41,48 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - agro2012@gis.agro2012.com.ua" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - agro2012@gis.agro2012.com.ua" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - agro2012@gis.agro2012.com.ua" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="kaddil" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -46,12 +93,12 @@
       <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cdnum/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+            <state relative-caret-position="459">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
-                <marker date="1469734778651" expanded="true" signature="259:304" ph="SELECT count... cadnum" />
-                <marker date="1469734778651" expanded="true" signature="1536:1860" ph="INSERT INTO cadnum... " />
-                <marker date="1469734778651" expanded="true" signature="2074:2128" ph="INSERT INTO cadnum_point... " />
+                <marker date="1469780690992" expanded="true" signature="259:304" ph="SELECT count... cadnum" />
+                <marker date="1469780690992" expanded="true" signature="1536:1860" ph="INSERT INTO cadnum... " />
+                <marker date="1469780690992" expanded="true" signature="2074:2128" ph="INSERT INTO cadnum_point... " />
               </folding>
             </state>
           </provider>
@@ -60,51 +107,19 @@
       <file leaf-file-name="datacadnum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cdnum/datacadnum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="-38">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cadnum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cadnum.py">
+      <file leaf-file-name="drevnosti.geojson" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hnya/drevnosti.geojson">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-              <folding>
-                <element signature="e#3028#3457#0" expanded="false" />
-                <element signature="e#3707#5725#0" expanded="false" />
-                <element signature="e#3707#5157#1" expanded="false" />
-                <element signature="e#5758#6067#0" expanded="false" />
-                <element signature="e#6100#6399#0" expanded="false" />
-                <element signature="e#6759#7117#0" expanded="false" />
-                <element signature="e#7117#7145#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadnum_dialog.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cadnum_dialog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#1117#1126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectFiles.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hnya/selectFiles.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-              <folding>
-                <element signature="e#25#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-17">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,11 +127,9 @@
       <file leaf-file-name="browser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hnya/browser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <element signature="e#48#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,13 +139,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
-    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -143,11 +154,11 @@
         <option value="$PROJECT_DIR$/datacadnum.py" />
         <option value="$PROJECT_DIR$/dbqt.py" />
         <option value="$PROJECT_DIR$/mapsCoordinates.py" />
-        <option value="$PROJECT_DIR$/cdnum/db.py" />
-        <option value="$PROJECT_DIR$/pdf/pdfparse.py" />
         <option value="$PROJECT_DIR$/cadnum.py" />
-        <option value="$PROJECT_DIR$/hnya/selectFiles.py" />
+        <option value="dbtable:/a8a4cfc8/aa8ade12-103c-412e-a472-ae70ccef69eb/agro2012.public.kaddil" />
+        <option value="$PROJECT_DIR$/cdnum/db.py" />
         <option value="$PROJECT_DIR$/hnya/browser.py" />
+        <option value="$PROJECT_DIR$/hnya/geo.js" />
       </list>
     </option>
   </component>
@@ -158,10 +169,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="-3" />
-    <option name="width" value="1924" />
-    <option name="height" value="1052" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -188,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,8 +249,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,8 +259,8 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/hnya" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\v.gumenyuk\.qgis2\python\plugins\cadnum\hnya" />
     </key>
   </component>
   <component name="RunManager" selected="Python.browser">
@@ -267,6 +278,24 @@
       <module name="cadnum" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="datacadnum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cadnum" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datacadnum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -303,24 +332,6 @@
       <module name="cadnum" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cdnum/db.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="selectFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hnya" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cadnum" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hnya/selectFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -553,23 +564,26 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.db" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dbqt" />
-      <item index="2" class="java.lang.String" itemvalue="Python.db (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.selectFiles" />
+      <item index="1" class="java.lang.String" itemvalue="Python.datacadnum" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dbqt" />
+      <item index="3" class="java.lang.String" itemvalue="Python.db (1)" />
       <item index="4" class="java.lang.String" itemvalue="Python.browser" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.browser" />
-        <item index="1" class="java.lang.String" itemvalue="Python.selectFiles" />
-        <item index="2" class="java.lang.String" itemvalue="Python.db (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.db" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dbqt" />
+        <item index="1" class="java.lang.String" itemvalue="Python.db (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.db" />
+        <item index="3" class="java.lang.String" itemvalue="Python.dbqt" />
+        <item index="4" class="java.lang.String" itemvalue="Python.datacadnum" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -651,37 +665,37 @@
       <updated>1469710026235</updated>
     </task>
     <task id="LOCAL-00011" summary="2">
-      <created>1469729055556</created>
+      <created>1469713159441</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1469729055557</updated>
+      <updated>1469713159441</updated>
     </task>
     <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-3" width="1924" height="1052" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23642172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3419062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5030534" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25377643" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32447398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49694657" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49694657" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -703,27 +717,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/cdnum/db.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nums.py" />
-    <entry file="file://$PROJECT_DIR$/db.py" />
-    <entry file="file://$PROJECT_DIR$/datacadnum.py" />
     <entry file="file://$PROJECT_DIR$/cadnum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="200" column="48" selection-start-line="200" selection-start-column="48" selection-end-line="200" selection-end-column="48" />
-          <folding>
-            <element signature="e#3028#3457#0" expanded="false" />
-            <element signature="e#3707#5725#0" expanded="false" />
-            <element signature="e#3707#5157#1" expanded="false" />
-            <element signature="e#5758#6067#0" expanded="false" />
-            <element signature="e#6100#6399#0" expanded="false" />
-            <element signature="e#6759#7117#0" expanded="false" />
-            <element signature="e#7117#7145#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -734,15 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3400">
           <caret line="200" column="48" selection-start-line="200" selection-start-column="48" selection-end-line="200" selection-end-column="48" />
-          <folding>
-            <element signature="e#3028#3457#0" expanded="false" />
-            <element signature="e#3707#5725#0" expanded="false" />
-            <element signature="e#3707#5157#1" expanded="false" />
-            <element signature="e#5758#6067#0" expanded="false" />
-            <element signature="e#6100#6399#0" expanded="false" />
-            <element signature="e#6759#7117#0" expanded="false" />
-            <element signature="e#7117#7145#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,15 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3400">
           <caret line="200" column="48" selection-start-line="200" selection-start-column="48" selection-end-line="200" selection-end-column="48" />
-          <folding>
-            <element signature="e#3028#3457#0" expanded="false" />
-            <element signature="e#3707#5725#0" expanded="false" />
-            <element signature="e#3707#5157#1" expanded="false" />
-            <element signature="e#5758#6067#0" expanded="false" />
-            <element signature="e#6100#6399#0" expanded="false" />
-            <element signature="e#6759#7117#0" expanded="false" />
-            <element signature="e#7117#7145#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,15 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3400">
           <caret line="200" column="48" selection-start-line="200" selection-start-column="48" selection-end-line="200" selection-end-column="48" />
-          <folding>
-            <element signature="e#3028#3457#0" expanded="false" />
-            <element signature="e#3707#5725#0" expanded="false" />
-            <element signature="e#3707#5157#1" expanded="false" />
-            <element signature="e#5758#6067#0" expanded="false" />
-            <element signature="e#6100#6399#0" expanded="false" />
-            <element signature="e#6759#7117#0" expanded="false" />
-            <element signature="e#7117#7145#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,15 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3400">
           <caret line="200" column="48" selection-start-line="200" selection-start-column="48" selection-end-line="200" selection-end-column="48" />
-          <folding>
-            <element signature="e#3028#3457#0" expanded="false" />
-            <element signature="e#3707#5725#0" expanded="false" />
-            <element signature="e#3707#5157#1" expanded="false" />
-            <element signature="e#5758#6067#0" expanded="false" />
-            <element signature="e#6100#6399#0" expanded="false" />
-            <element signature="e#6759#7117#0" expanded="false" />
-            <element signature="e#7117#7145#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,15 +783,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3400">
           <caret line="200" column="48" selection-start-line="200" selection-start-column="48" selection-end-line="200" selection-end-column="48" />
-          <folding>
-            <element signature="e#3028#3457#0" expanded="false" />
-            <element signature="e#3707#5725#0" expanded="false" />
-            <element signature="e#3707#5157#1" expanded="false" />
-            <element signature="e#5758#6067#0" expanded="false" />
-            <element signature="e#6100#6399#0" expanded="false" />
-            <element signature="e#6759#7117#0" expanded="false" />
-            <element signature="e#7117#7145#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nums.py" />
+    <entry file="file://$PROJECT_DIR$/db.py" />
+    <entry file="file://$PROJECT_DIR$/datacadnum.py" />
+    <entry file="file://$PROJECT_DIR$/cadnum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="200" column="48" selection-start-line="200" selection-start-column="48" selection-end-line="200" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -835,15 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3298">
           <caret line="198" column="48" selection-start-line="198" selection-start-column="48" selection-end-line="198" selection-end-column="48" />
-          <folding>
-            <element signature="e#3028#3457#0" expanded="false" />
-            <element signature="e#3707#5725#0" expanded="false" />
-            <element signature="e#3707#5157#1" expanded="false" />
-            <element signature="e#5758#6067#0" expanded="false" />
-            <element signature="e#6100#6399#0" expanded="false" />
-            <element signature="e#6759#7117#0" expanded="false" />
-            <element signature="e#7117#7145#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,8 +819,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/postgis/geometry.py" />
-    <entry file="file://C:/Python27/Lib/site-packages/postgis/__init__.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/postgis/geometry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/postgis/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -863,103 +840,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/58ea81df-0b6b-4e13-b691-11cf0670fd3d/console.sql" />
+    <entry file="file://$PROJECT_DIR$/cadnum_dialog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/58ea81df-0b6b-4e13-b691-11cf0670fd3d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dbqt.py" />
     <entry file="file://$PROJECT_DIR$/datacadnum.py" />
     <entry file="file://$PROJECT_DIR$/mapsCoordinates.py" />
     <entry file="file://$PROJECT_DIR$/nums.py" />
     <entry file="file://$PROJECT_DIR$/db.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aa8ade12-103c-412e-a472-ae70ccef69eb/console.sql" />
-    <entry file="dbDummy://dbview:/a8a4cfc8/aa8ade12-103c-412e-a472-ae70ccef69eb/agro2012.public.cn_point" />
-    <entry file="dbDummy://dbtable:/a8a4cfc8/aa8ade12-103c-412e-a472-ae70ccef69eb/agro2012.public.cadnum" />
-    <entry file="dbDummy://dbtable:/a8a4cfc8/aa8ade12-103c-412e-a472-ae70ccef69eb/agro2012.public.cadnum_point" />
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pdfminer/pdfdocument.py">
+    <entry file="file://$PROJECT_DIR$/cadnum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258">
-          <caret line="487" column="0" selection-start-line="487" selection-start-column="0" selection-end-line="487" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdf/pdfparse.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aa8ade12-103c-412e-a472-ae70ccef69eb/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbview:/a8a4cfc8/aa8ade12-103c-412e-a472-ae70ccef69eb/agro2012.public.cn_point">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a8a4cfc8/aa8ade12-103c-412e-a472-ae70ccef69eb/agro2012.public.cadnum_point">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a8a4cfc8/aa8ade12-103c-412e-a472-ae70ccef69eb/agro2012.public.cadnum">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a8a4cfc8/aa8ade12-103c-412e-a472-ae70ccef69eb/agro2012.public.kaddil">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cdnum/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        <state relative-caret-position="459">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
-            <marker date="1469734778651" expanded="true" signature="259:304" ph="SELECT count... cadnum" />
-            <marker date="1469734778651" expanded="true" signature="1536:1860" ph="INSERT INTO cadnum... " />
-            <marker date="1469734778651" expanded="true" signature="2074:2128" ph="INSERT INTO cadnum_point... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cadnum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <element signature="e#3028#3457#0" expanded="false" />
-            <element signature="e#3707#5725#0" expanded="false" />
-            <element signature="e#3707#5157#1" expanded="false" />
-            <element signature="e#5758#6067#0" expanded="false" />
-            <element signature="e#6100#6399#0" expanded="false" />
-            <element signature="e#6759#7117#0" expanded="false" />
-            <element signature="e#7117#7145#0" expanded="false" />
+            <marker date="1469780690992" expanded="true" signature="259:304" ph="SELECT count... cadnum" />
+            <marker date="1469780690992" expanded="true" signature="1536:1860" ph="INSERT INTO cadnum... " />
+            <marker date="1469780690992" expanded="true" signature="2074:2128" ph="INSERT INTO cadnum_point... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cdnum/datacadnum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="-38">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hnya/browser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="e#48#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadnum_dialog.py">
+    <entry file="file://$PROJECT_DIR$/hnya/geo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1117#1126#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="1374" column="14" selection-start-line="1374" selection-start-column="14" selection-end-line="1381" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hnya/selectFiles.py">
+    <entry file="file://$PROJECT_DIR$/hnya/drevnosti.geojson">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-          <folding>
-            <element signature="e#25#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-17">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

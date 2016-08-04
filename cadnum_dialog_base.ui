@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>419</width>
-    <height>499</height>
+    <width>843</width>
+    <height>587</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -46,10 +46,10 @@
   <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
     <rect>
-     <x>5</x>
+     <x>-5</x>
      <y>54</y>
-     <width>411</width>
-     <height>441</height>
+     <width>851</width>
+     <height>541</height>
     </rect>
    </property>
    <property name="currentIndex">
@@ -62,9 +62,9 @@
     <widget class="Line" name="line_2">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>13</x>
        <y>0</y>
-       <width>371</width>
+       <width>821</width>
        <height>16</height>
       </rect>
      </property>
@@ -75,10 +75,10 @@
     <widget class="QToolBox" name="toolBox">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>12</x>
        <y>20</y>
-       <width>401</width>
-       <height>391</height>
+       <width>831</width>
+       <height>471</height>
       </rect>
      </property>
      <property name="currentIndex">
@@ -89,8 +89,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>391</width>
-        <height>303</height>
+        <width>831</width>
+        <height>390</height>
        </rect>
       </property>
       <attribute name="label">
@@ -99,8 +99,8 @@
       <widget class="QLineEdit" name="cadnumLine">
        <property name="geometry">
         <rect>
-         <x>109</x>
-         <y>-2</y>
+         <x>112</x>
+         <y>3</y>
          <width>151</width>
          <height>21</height>
         </rect>
@@ -124,8 +124,8 @@
       <widget class="QPushButton" name="getCadnum">
        <property name="geometry">
         <rect>
-         <x>271</x>
-         <y>-3</y>
+         <x>274</x>
+         <y>2</y>
          <width>111</width>
          <height>23</height>
         </rect>
@@ -143,8 +143,8 @@
       <widget class="QLabel" name="label_4">
        <property name="geometry">
         <rect>
-         <x>4</x>
-         <y>1</y>
+         <x>7</x>
+         <y>6</y>
          <width>101</width>
          <height>16</height>
         </rect>
@@ -157,7 +157,7 @@
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>120</y>
+         <y>130</y>
          <width>379</width>
          <height>39</height>
         </rect>
@@ -187,8 +187,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>391</width>
-        <height>303</height>
+        <width>401</width>
+        <height>310</height>
        </rect>
       </property>
       <attribute name="label">
@@ -196,6 +196,14 @@
       </attribute>
      </widget>
      <widget class="QWidget" name="page_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>401</width>
+        <height>310</height>
+       </rect>
+      </property>
       <attribute name="label">
        <string>Завантажити з файлу</string>
       </attribute>
