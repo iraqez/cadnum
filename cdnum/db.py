@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import csv
 import psycopg2
 import ppygis
 import datacadnum
@@ -63,8 +63,19 @@ def dbinsert(cadnum):
     return logstr
 
 if __name__ == '__main__':
-   cadnum = raw_input(u'Вставьте кадастровый номер: ')
-   dbinsert(cadnum)
+#   cadnum = raw_input(u'Вставьте кадастровый номер: ')
+#   dbinsert(cadnum)
+#---------------------------------------------------------------
+    with open("/home/iraqez/agro2012.csv") as f:
+        reader = csv.reader(f)
+        for row in reader:
+            try:
+                dbinsert(row[0])
+            except:
+                print row
+                pass
+
+#---------------------------------------------------------------
 #     for n in nums.cadnums:
 #         try:
 #             dbinsert(n)
