@@ -10,7 +10,7 @@ def dbinsert(cadnum):
     cur = conn.cursor()
 
     s1 = cadnum
-    cur.execute('SELECT count(*) FROM cadnum where cadnum = %s', (s1,))
+    cur.execute('SELECT count(*) FROM cadnum where cadnum = (%s)', (s1,))
     s = cur.fetchone()
 
     if s[0] == False:
@@ -51,6 +51,7 @@ def dbinsert(cadnum):
               ownershipvalue, ownershipcode, st_xmin, st_xmax, lng, koatuu, id_office, use,
               kvartal, unit_area))
         cur.execute('INSERT INTO cadnum_point(geom, cadnum) VALUES (%s, %s)', (geom, cadnum))
+        cur.execute('INSERT INTO using_cadnum(cadnum) VALUES (%s)', (cadnum))
         conn.commit()
         logstr = (u'Номер {} успішно додано!!!'.format(s1))
     else:
@@ -62,15 +63,31 @@ def dbinsert(cadnum):
  #   print logstr
     return logstr
 
+def companyAdd(cadnum):
+    conn = psycopg2.connect("host=gis.agro2012.com.ua dbname=agro2012 user=postgres password=workfree")
+    cur = conn.cursor()
+    cur.execute('INSERT INTO using_cadnum(cadnum, company) VALUES (%s, %s)', (cadnum, 1))
+    conn.commit()
+    cur.close()
+    conn.close()
+
+def companySigned(cadnum):
+    conn = psycopg2.connect("host=gis.agro2012.com.ua dbname=agro2012 user=postgres password=workfree")
+    cur = conn.cursor()
+    cur.execute('UPDATE using_cadnum SET signed = (%s), registered = (%s) WHERE cadnum = (%s)', ('True', 'True', cadnum))
+    conn.commit()
+    cur.close()
+    conn.close()
+
 if __name__ == '__main__':
 #   cadnum = raw_input(u'Вставьте кадастровый номер: ')
 #   dbinsert(cadnum)
 #---------------------------------------------------------------
-    with open("/home/iraqez/agro2012.csv") as f:
+    with open("/home/iraqez/signed.csv") as f:
         reader = csv.reader(f)
         for row in reader:
             try:
-                dbinsert(row[0])
+                companySigned(str(row[0]))
             except:
                 print row
                 pass
