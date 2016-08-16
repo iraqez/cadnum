@@ -23,7 +23,7 @@
     <SUITE FILE_PATH="coverage/cadnum$db.coverage" NAME="db Coverage Results" MODIFIED="1471346592198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cadnum$cadnum.coverage" NAME="cadnum Coverage Results" MODIFIED="1468936603081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cadnum$dbqt.coverage" NAME="dbqt Coverage Results" MODIFIED="1469522097035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cadnum$db__1_.coverage" NAME="db (1) Coverage Results" MODIFIED="1471357797805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdnum" />
+    <SUITE FILE_PATH="coverage/cadnum$db__1_.coverage" NAME="db (1) Coverage Results" MODIFIED="1471362183993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdnum" />
     <SUITE FILE_PATH="coverage/cadnum$datacadnum.coverage" NAME="datacadnum Coverage Results" MODIFIED="1468936620918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cadnum$browser.coverage" NAME="browser Coverage Results" MODIFIED="1471355601990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hnya" />
   </component>
@@ -37,62 +37,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - agro2012@gis.agro2012.com.ua" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - agro2012@gis.agro2012.com.ua" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - agro2012@gis.agro2012.com.ua" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="kd_points" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - agro2012@gis.agro2012.com.ua" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -103,53 +47,20 @@
       <file leaf-file-name="db.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cdnum/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+            <state relative-caret-position="133">
+              <caret line="76" column="131" selection-start-line="76" selection-start-column="131" selection-end-line="76" selection-end-column="131" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
-                <marker date="1471358113416" expanded="true" signature="269:316" ph="SELECT count... cadnum" />
-                <marker date="1471358113416" expanded="true" signature="1548:1872" ph="INSERT INTO cadnum... " />
-                <marker date="1471358113416" expanded="true" signature="2086:2140" ph="INSERT INTO cadnum_point... " />
-                <marker date="1471358113416" expanded="true" signature="2180:2224" ph="INSERT INTO using_cadnum... " />
-                <marker date="1471358113416" expanded="true" signature="2625:2650" ph="INSERT INTO using_cadnum... " />
-                <marker date="1471358113416" expanded="true" signature="2625:2666" ph="INSERT INTO using_cadnum... " />
-                <marker date="1471358113416" expanded="true" signature="2625:2682" ph="INSERT INTO using_cadnum... " />
-                <marker date="1471358113416" expanded="true" signature="2922:2973" ph="UPDATE using... " />
-                <marker date="1471358113416" expanded="true" signature="2922:2998" ph="UPDATE using... " />
+                <marker date="1471361863453" expanded="true" signature="269:316" ph="SELECT count... cadnum" />
+                <marker date="1471361863453" expanded="true" signature="1548:1872" ph="INSERT INTO cadnum... " />
+                <marker date="1471361863453" expanded="true" signature="2086:2140" ph="INSERT INTO cadnum_point... " />
+                <marker date="1471361863453" expanded="true" signature="2180:2237" ph="INSERT INTO using_cadnum... " />
+                <marker date="1471361863453" expanded="true" signature="2644:2669" ph="INSERT INTO using_cadnum... " />
+                <marker date="1471361863453" expanded="true" signature="2644:2685" ph="INSERT INTO using_cadnum... " />
+                <marker date="1471361863453" expanded="true" signature="2644:2701" ph="INSERT INTO using_cadnum... " />
+                <marker date="1471361863453" expanded="true" signature="2941:2992" ph="UPDATE using... " />
+                <marker date="1471361863453" expanded="true" signature="2941:3033" ph="UPDATE using... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agro2012.public.kd_points" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbview:/71d118f7/aa8ade12-103c-412e-a472-ae70ccef69eb/agro2012.public.kd_points">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agro2012.public.using_cadnum" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/71d118f7/aa8ade12-103c-412e-a472-ae70ccef69eb/agro2012.public.using_cadnum">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-              <column-attributes>
-                <column name="ctid" enabled="false" />
-              </column-attributes>
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -721,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471346762531</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2">
+      <created>1471358118362</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1471358118362</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -768,13 +686,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/cdnum/db.py</url>
-          <line>89</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
@@ -979,19 +890,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cdnum/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+        <state relative-caret-position="133">
+          <caret line="76" column="131" selection-start-line="76" selection-start-column="131" selection-end-line="76" selection-end-column="131" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
-            <marker date="1471358113416" expanded="true" signature="269:316" ph="SELECT count... cadnum" />
-            <marker date="1471358113416" expanded="true" signature="1548:1872" ph="INSERT INTO cadnum... " />
-            <marker date="1471358113416" expanded="true" signature="2086:2140" ph="INSERT INTO cadnum_point... " />
-            <marker date="1471358113416" expanded="true" signature="2180:2224" ph="INSERT INTO using_cadnum... " />
-            <marker date="1471358113416" expanded="true" signature="2625:2650" ph="INSERT INTO using_cadnum... " />
-            <marker date="1471358113416" expanded="true" signature="2625:2666" ph="INSERT INTO using_cadnum... " />
-            <marker date="1471358113416" expanded="true" signature="2625:2682" ph="INSERT INTO using_cadnum... " />
-            <marker date="1471358113416" expanded="true" signature="2922:2973" ph="UPDATE using... " />
-            <marker date="1471358113416" expanded="true" signature="2922:2998" ph="UPDATE using... " />
+            <marker date="1471361863453" expanded="true" signature="269:316" ph="SELECT count... cadnum" />
+            <marker date="1471361863453" expanded="true" signature="1548:1872" ph="INSERT INTO cadnum... " />
+            <marker date="1471361863453" expanded="true" signature="2086:2140" ph="INSERT INTO cadnum_point... " />
+            <marker date="1471361863453" expanded="true" signature="2180:2237" ph="INSERT INTO using_cadnum... " />
+            <marker date="1471361863453" expanded="true" signature="2644:2669" ph="INSERT INTO using_cadnum... " />
+            <marker date="1471361863453" expanded="true" signature="2644:2685" ph="INSERT INTO using_cadnum... " />
+            <marker date="1471361863453" expanded="true" signature="2644:2701" ph="INSERT INTO using_cadnum... " />
+            <marker date="1471361863453" expanded="true" signature="2941:2992" ph="UPDATE using... " />
+            <marker date="1471361863453" expanded="true" signature="2941:3033" ph="UPDATE using... " />
           </folding>
         </state>
       </provider>

@@ -51,7 +51,7 @@ def dbinsert(cadnum):
               ownershipvalue, ownershipcode, st_xmin, st_xmax, lng, koatuu, id_office, use,
               kvartal, unit_area))
         cur.execute('INSERT INTO cadnum_point(geom, cadnum) VALUES (%s, %s)', (geom, cadnum))
-        cur.execute('INSERT INTO using_cadnum(cadnum) VALUES (%s)', (cadnum))
+        cur.execute('INSERT INTO using_cadnum(cadnum, company) VALUES (%s, %s)', (cadnum, None))
         conn.commit()
         logstr = (u'Номер {} успішно додано!!!'.format(s1))
     else:
@@ -74,7 +74,7 @@ def companyAdd(cadnum):
 def companySigned(cadnum):
     conn = psycopg2.connect("host=gis.agro2012.com.ua dbname=agro2012 user=postgres password=workfree")
     cur = conn.cursor()
-    cur.execute('UPDATE using_cadnum SET signed = (%s), registered = (%s) WHERE cadnum = (%s)', ('True', 'True', cadnum))
+    cur.execute('UPDATE using_cadnum SET signed = (%s), registered = (%s), company = (%s) WHERE cadnum = (%s)', ('True', 'True', 1, cadnum))
     conn.commit()
     cur.close()
     conn.close()
@@ -86,11 +86,11 @@ if __name__ == '__main__':
     with open("/home/iraqez/signed.csv") as f:
         reader = csv.reader(f)
         for row in reader:
-            try:
-                companySigned(str(row[0]))
-            except:
-                print row
-                pass
+      #      try:
+            companySigned(str(row[0]))
+            # except:
+            #     print str(row[0])
+            #     pass
 
 #---------------------------------------------------------------
 #     for n in nums.cadnums:
