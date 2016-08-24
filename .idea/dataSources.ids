@@ -31,8 +31,8 @@
       <schema id="8" parent="1" name="public">
         <object-id>2200</object-id>
         <visible>1</visible>
-        <introspection-state-number>406392</introspection-state-number>
-        <introspection-timestamp>2016-08-16.18:12:02.196</introspection-timestamp>
+        <introspection-state-number>408427</introspection-state-number>
+        <introspection-timestamp>2016-08-24.12:57:13.654</introspection-timestamp>
       </schema>
       <schema id="9" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -153,13 +153,13 @@
         <object-id>232097</object-id>
         <state-number>404184</state-number>
       </table>
-      <table id="33" parent="8" name="cornfields_vin">
+      <table id="33" parent="8" name="cornfields">
         <object-id>21791</object-id>
-        <state-number>5946</state-number>
+        <state-number>408242</state-number>
       </table>
       <table id="34" parent="8" name="ikk">
         <object-id>20205</object-id>
-        <state-number>5747</state-number>
+        <state-number>408413</state-number>
       </table>
       <table id="35" parent="8" name="kaddil">
         <object-id>19846</object-id>
@@ -3496,23 +3496,21 @@
         <state-number>5667</state-number>
         <data-type>geometry(MultiPolygon,3857)|0</data-type>
       </column>
-      <index id="691" parent="34" name="ikk_pkey">
-        <object-id>20209</object-id>
-        <columns>id</columns>
+      <column id="691" parent="34" name="koatuu">
+        <state-number>408413</state-number>
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <index id="692" parent="34" name="ikk_koatuu_uindex">
+        <object-id>384929</object-id>
+        <columns>koatuu</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
-      <index id="692" parent="34" name="sidx_ikk_geom">
+      <index id="693" parent="34" name="sidx_ikk_geom">
         <object-id>21203</object-id>
         <columns>geom</columns>
         <desc-columns></desc-columns>
       </index>
-      <key id="693" parent="34" name="ikk_pkey">
-        <object-id>20210</object-id>
-        <columns>id</columns>
-        <underlying-index>ikk_pkey</underlying-index>
-        <primary>1</primary>
-      </key>
       <column id="694" parent="35" name="geom">
         <state-number>5551</state-number>
         <data-type>geometry(MultiPolygon,4326)|0</data-type>
